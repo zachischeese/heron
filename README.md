@@ -1,11 +1,13 @@
 # heron
 This is the Realistic Heron Simulator from Tom Scott's Ideas Board.
+[Blog Post](http://www.zachashton.me.uk/theblog/archives/2018/448)
 
 ## Context
 [This Video](https://youtu.be/-MyrZF5QGVo)
 
 ## Why
 Why not? I get bored very easly and have up to three hours at a time completely free and open to make junk like this.
+
 
 ## Contact Me
 You can Tweet me. I'm @ZachIsCheese
