@@ -1,0 +1,100 @@
+/*
+I see you like CSS. Well, I hate it. So enjoy this mess.
+*/
+
+html
+{
+	position: relative;
+	min-height: 100%;
+}
+
+body
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	margin-bottom: 60px;
+}
+
+#background
+{
+	background-image: url("kitchen.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #fff;
+	-webkit-filter: blur(4px);
+	-moz-filter: blur(4px);
+	-o-filter: blur(4px);
+	-ms-filter: blur(4px);
+	filter: blur(4px);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+h1, h3
+{
+	text-align: center;
+}
+
+header
+{
+	background-color: #f5f5f5;
+
+}
+
+#heron
+{
+	position: absolute;
+	width: 100px;
+}
+
+#bottomBit
+{
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	line-height: 30px;
+	background-color: #f5f5f5;
+}
+
+#heronArea
+{
+	width: 100%;
+	background-color: blue;
+}
+
+.pan{position: absolute;}
+.pan1{left: 10px;}
+.pan2{left: 400px;}
+.pan3{left: 800px;}
+.pan4{left: 200px;}
+.pan5{left: 600px;}
+.pan6{left: 1000px;}
+
+
+#modal {
+    /*display: none; */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+/*button
+{
+     background:none!important;
+     color:inherit;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+}*/
