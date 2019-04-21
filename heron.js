@@ -4,7 +4,7 @@ This is honestly possibly my favorite language as I can do crap like this.
 I can also make stuff like TomBot and Saori-Chan with it (node things for discord).
 Ohhh yeaaahhhhhhh baby!
 */
-document.getElementById("modal").style.display = "none";
+
 
 $(document).mousemove(function(e){
     $("#heron").css({left:e.pageX-50, top:e.pageY-50});
@@ -23,13 +23,3 @@ $(function(){
         }
     });
 });
-
-function buttonClick()
-{
-	document.getElementById("modal").style.display = "block";
-}
-
-function hideMe()
-{
-	document.getElementById("modal").style.display = "none";
-}
